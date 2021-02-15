@@ -1,14 +1,14 @@
 Personaje player;
-PVector G = new PVector(0,0.5);
-PVector UPP = new PVector(0,-2.5);
+PVector G = new PVector(0,0.3);
+PVector UPP = new PVector(0,-1);
 
-Columna [] columnas= new Columna[5];
+columna[] columnas= new columna[8];
 void setup(){
   size(900, 700);
   player = new Personaje();
    
-   for(int i = 0; i<5; i++){
-    columnas[i] = new Columna(width + 130*i);
+   for(int i = 0; i<8; i++){
+    columnas[i] = new columna(width + 220*i);
    }
  }
  
@@ -21,4 +21,6 @@ void setup(){
    player.acelerar(G);
    player.mover();
    player.mostrar();
+   
+   chequearColision();
  }

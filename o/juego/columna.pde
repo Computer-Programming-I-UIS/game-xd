@@ -1,10 +1,10 @@
-class columna{
+class columna {
 Rect obs;
 Rect esp;
 
-Columna(int P_colum){
-  col= new Rect(P_colum);
-  esp = new Rect(P_colum, height/2)
+columna(int P_colum){
+  obs= new Rect(P_colum);
+  esp = new Rect(P_colum, height/2);
 }
    
    void mover(){
@@ -17,7 +17,10 @@ Columna(int P_colum){
    
    }
    boolean SevadelaPantalla(){
-     return(obs.po.x < -100);
+     return(obs.pos.x < -100);
    }
-
+void reaparecer () {
+  obs.pos.x = width + 100;
+  esp.pos.x = width + 100;
+}
 }

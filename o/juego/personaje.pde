@@ -35,3 +35,30 @@ class Personaje {
     ace.add(F);
     }
 }
+
+
+  boolean ChocarContraRect(Rect pal) {
+  PVector PMC = new PVector (0, 0);
+  
+  if(pos.x < pal.pos.x-pal.rx) PMC.x = pal.pos.x-p
+  else if (pos.x> pal.pos.x-pal.rx) PMC.x = pal.pos
+  else PMC.x=pos.x;
+  
+  if(pos.y < pal.pos.y-pal.ry) PMC.y = pal.pos.y-p
+  else if (pos.y> pal.pos.y-pal.ry) PMC.y = pal.pos
+  else PMC.y=pos.y;
+  
+  float dist = PVector.dist(pos, PMC);
+  
+  if(dist < radio) return true;
+  else return false;
+}
+
+  
+  
+  
+  
+  
+  
+  
+  
