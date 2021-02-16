@@ -15,8 +15,13 @@ void ActualizarColumnas() {
 }
 
 void chequearColision() {
-  for (int i = 0; i<5; i++) {
-    if (personaje.ChocaContra(columnas[i].obs)&& (!(personaje.ChocaContra(columnas[i].esp))))={background(255, 0, 0);
+  for (int i = 0; i<8; i++) {
+    if (Personaje.ChocaContra(columnas[i].obs)
+    && (!(Personaje.ChocaContra(columnas[i].esp)))){
+      Personaje.pos.y = columnas[i].esp.pos.y;
+      Personaje.vel.mult(0);
+      background(255, 0, 0);
+      muerte = 255;
   }
 }
-//56
+}
