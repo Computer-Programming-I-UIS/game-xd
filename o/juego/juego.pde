@@ -2,14 +2,14 @@ Personaje player;
 PVector G = new PVector(0,0.3);
 PVector UPP = new PVector(0,-1);
 
-columna[] columnas= new columna[8];
+columna[] columnas= new columna[6];
 
 int muerte = 0;
 void setup(){
   size(900, 700);
   player = new Personaje();
    
-   for(int i = 0; i<8; i++){
+   for(int i = 0; i<6; i++){
     columnas[i] = new columna(width + 240*i);
    }
  }

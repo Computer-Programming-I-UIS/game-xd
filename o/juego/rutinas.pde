@@ -6,7 +6,7 @@ void aplicarFuerzas() {
 
 void ActualizarColumnas() {
 
-  for (int i = 0; i<8; i++) {
+  for (int i = 0; i<6; i++) {
     columnas[i]. mover();
     columnas[i]. mostrar();
     if (columnas[i].SevadelaPantalla())
@@ -15,11 +15,10 @@ void ActualizarColumnas() {
 }
 
 void chequearColision() {
-  for (int i = 0; i<8; i++) {
-    if (Personaje.ChocaContra(columnas[i].obs)
-    && !(Personaje.ChocaContra(columnas[i].esp))){
-      Personaje.pos.y = columnas[i].esp.pos.y;
-      Personaje.vel.mult(0);
+  for (int i = 0; i<6; i++) {
+    if (player.ChocaContra(columnas[i].obs) && !(player.ChocaContra(columnas[i].esp))){
+      player.pos.y = columnas[i].esp.pos.y;
+      player.vel.mult(0);
       background(255, 0, 0);
       muerte = 255;
   }
