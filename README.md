@@ -4,7 +4,7 @@
 - Pedro David Torres Anaya
 - Yorman Ronaldo Carrillo
 ## Juego
-Consiste en un juego en el cuál colontraras una pequeña pelotica
+Consiste en un juego en el cuál colontraras una pequeña pelotica la cual tendra cómo objetivo rebasar los obstaculos que estan en movimiento
 dirgido especialmente a personas que deseen un juego de forma casual
 No apto para gente con poca paciencia
 
