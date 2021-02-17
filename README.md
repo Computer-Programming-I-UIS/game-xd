@@ -8,8 +8,10 @@ Consiste en un juego en el cuál colontraras una pequeña pelotica la cual tendr
 dirgido especialmente a personas que deseen un juego de forma casual
 No apto para gente con poca paciencia
 
+Clasificación:apto para todo público
 
 
+tutorial: presione espacio repetidamente para mantener elevando la pelotica 
 
 
 
