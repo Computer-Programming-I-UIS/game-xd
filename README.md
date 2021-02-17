@@ -1,8 +1,7 @@
-# Froag Jump
+# Survivor Ball
 # 
 ## Desarrolladores
 - Pedro David Torres Anaya
 - Yorman Ronaldo Carrillo
 ## Juego
-el juego consiste en una rana la cuál su mayor objetivo es saltar y saltar con la intención de atrapar su alimento favorito , las moscas , pero cuidado no choques con los obstaculos
-¡Cuidado!
+Consiste en una pequeña pelotica la cuál deberás controlar para recorrer la mayor distancia posible , cuidado no es para gente con poca paciencia 
