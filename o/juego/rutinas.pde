@@ -16,7 +16,7 @@ void ActualizarColumnas() {
 
 void chequearColision() {
   for (int i = 0; i<6; i++) {
-    if (player.ChocaContra(columnas[i].obs) && !(player.ChocaContra(columnas[i].esp))){
+    if (!player.ChocaContra(columnas[i].obs) && (player.ChocaContra(columnas[i].esp))){
       player.pos.y = columnas[i].esp.pos.y;
       player.vel.mult(0);
       background(255, 0, 0);

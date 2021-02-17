@@ -52,7 +52,12 @@ if (pos.y < pal.pos.y-pal.ry) PMC.y = pal.pos.y-pal.ry;
 
 float dist = PVector.dist(pos, PMC);
 
-if (dist < radio) return true;
-else return false;
+if (dist < radio){ 
+  return true;
+}
+else
+{
+  return false;
+}
 }
 }
