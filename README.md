@@ -4,7 +4,7 @@
 - Pedro David Torres Anaya
 - Yorman Ronaldo Carrillo
 ## Juego
-Una vez dentro del juego nuestro personaje es una pelotica cuyop unico objetivo es pasar por el medio de obstaculos que se mueven para ir acumulando puntos, pero CUIDADO no es nada favil hacerlo.
+Una vez dentro del juego nuestro personaje es una pelotica cuyo unico objetivo es pasar por el medio de obstaculos que estan en movimiento continuo para ir acumulando puntos, pero CUIDADO no es nada facil hacerlo.
 
 acumula la mayor cantidad de puntos posibbles y conviertete en un campeòn.
 
