@@ -4,14 +4,20 @@
 - Pedro David Torres Anaya
 - Yorman Ronaldo Carrillo
 ## Juego
-Consiste en un juego en el cuál colontraras una pequeña pelotica la cual tendra cómo objetivo rebasar los obstaculos que estan en movimiento
-dirgido especialmente a personas que deseen un juego de forma casual
-No apto para gente con poca paciencia
+Una vez dentro del juego nuestro personaje es una pelotica cuyop unico objetivo es pasar por el medio de obstaculos que se mueven para ir acumulando puntos, pero CUIDADO no es nada favil hacerlo.
 
-#Clasificación: apto para todo público
+acumula la mayor cantidad de puntos posibbles y conviertete en un campeòn.
+
+## Clasificación: A (apto para todo público)
+ya que el juego "survivor ball" es un juego que tiene como unico fin entretener a las personas cuando tienen tiempo libre es apto para ser jugado por cualquier persona, desde niños hasta ancianos.
 
 
-#tutorial: presione espacio repetidamente para mantener elevando la pelotica 
+## tutorial:
+Para iniciar el juego debes presionar la tecla f. 
+Para ver los creditos debes presionar la letra c.
+presiona cualquier boton del teclado para hacer que la pelotica se eleve.
+
+
 
 
 
