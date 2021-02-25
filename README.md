@@ -33,7 +33,9 @@ Intrucciones sencillas para todos
 ## Creditos y Agradecimientos
 
 Desarrolladores
+
 Pedro David Torres
+
 Yorman Ronaldo Carrillo
 
 insipirado en el juego de falppy bird
