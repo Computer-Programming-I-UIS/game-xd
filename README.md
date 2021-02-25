@@ -20,5 +20,7 @@ El juego posee una interfaz sencilla y entendible para cualquier jugador en la c
 ![Interfaz](https://user-images.githubusercontent.com/75033852/109210597-0d22cf80-777b-11eb-90ba-bfc1b09a9441.png)
 
 
-
+## Tutorial 
+Intrucciones sencillas para todos
+![Instru](https://user-images.githubusercontent.com/75033852/109210807-54a95b80-777b-11eb-818e-68f1570e06c9.png)
 
