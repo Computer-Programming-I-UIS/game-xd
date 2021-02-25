@@ -38,7 +38,7 @@ Pedro David Torres
 
 Yorman Ronaldo Carrillo
 
-insipirado en el juego de falppy bird
+insipirado en el juego de flappy bird
 
 agradecimientos
 
