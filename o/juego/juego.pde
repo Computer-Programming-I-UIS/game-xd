@@ -1,29 +1,35 @@
 Personaje player;
-PVector G = new PVector(0,0.3);
-PVector UPP = new PVector(0,-1);
-
+PVector G = new PVector(0, 0.1);
+PVector UPP = new PVector(0, -0.5);
 columna[] columnas= new columna[6];
-
 int muerte = 0;
-void setup(){
+int pantalla = 1;
+
+
+
+import ddf.minim.*;
+Minim minim;
+AudioPlayer cancion;
+
+void setup() {
   size(900, 700);
   player = new Personaje();
-   
-   for(int i = 0; i<6; i++){
+  
+  for (int i = 0; i<6; i++) {
     columnas[i] = new columna(width + 240*i);
-   }
- }
- 
- void draw(){
-   muerte = max(muerte-1, 0);
-   background(muerte, 0, 255);
-   aplicarFuerzas();
-   
-   ActualizarColumnas();
-   
-   player.acelerar(G);
-   player.mover();
-   player.mostrar();
-   
-   chequearColision();
- }
+  }
+  
+  minim = new Minim(this);
+  cancion = minim.loadFile("nubes-de-cristal.mp3");
+  cancion.setGain(-30);
+  
+}
+
+void draw() {
+  
+  if(!cancion.isPlaying()) {
+     cancion.play();
+  }
+  cambiarpantalla();
+ mostrar();
+}
