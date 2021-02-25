@@ -1,8 +1,6 @@
 # Survivor Ball
 # 
-## Desarrolladores
-- Pedro David Torres Anaya
-- Yorman Ronaldo Carrillo
+
 ## Juego
 Una vez dentro del juego nuestro personaje es una pelotica cuyo unico objetivo es pasar por el medio de obstaculos que estan en movimiento continuo para ir acumulando puntos, pero CUIDADO no es nada facil hacerlo.
 
@@ -24,3 +22,16 @@ El juego posee una interfaz sencilla y entendible para cualquier jugador en la c
 Intrucciones sencillas para todos
 ![Instru](https://user-images.githubusercontent.com/75033852/109210807-54a95b80-777b-11eb-818e-68f1570e06c9.png)
 
+## Creditos y Agradecimientos
+
+Desarrolladores
+Pedro David Torres
+Yorman Ronaldo Carrillo
+
+insipirado en el juego de falppy bird
+
+agradecimientos
+
+Profesor: Camilo Rojas
+Tutor: Alex Mantilla
+Compañeros de clase
