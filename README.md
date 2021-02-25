@@ -14,13 +14,11 @@ ya que el juego "survivor ball" es un juego que tiene como unico fin entretener 
 ![Apto para](https://user-images.githubusercontent.com/75033852/109210363-b5846400-777a-11eb-8543-07e6f8270cf1.png)
 
 
-## tutorial:
-Para iniciar el juego debes presionar la tecla f. 
-Para ver los creditos debes presionar la letra c.
-presiona cualquier boton del teclado para hacer que la pelotica se eleve.
+## Menú
+El juego posee una interfaz sencilla y entendible para cualquier jugador en la cuál se le presenta las distintas opciones a las cuales puede tener acceso 
+
+![Interfaz](https://user-images.githubusercontent.com/75033852/109210597-0d22cf80-777b-11eb-90ba-bfc1b09a9441.png)
 
 
 
 
-
-![imagen para el readme](https://user-images.githubusercontent.com/75033852/108211518-c25de380-70fa-11eb-9b77-152ba298128c.png)
