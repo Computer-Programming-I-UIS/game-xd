@@ -43,5 +43,7 @@ insipirado en el juego de falppy bird
 agradecimientos
 
 Profesor: Camilo Rojas
+
 Tutor: Alex Mantilla
+
 Compañeros de clase
