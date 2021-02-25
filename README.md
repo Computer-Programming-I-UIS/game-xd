@@ -24,6 +24,8 @@ Intrucciones sencillas para todos
 
 ## Juego en funcionamiento 
 
+![imagen para el readme](https://user-images.githubusercontent.com/75033852/109211551-62131580-777c-11eb-8a9f-409bfa7ac5c5.png)
+
 
 
 
