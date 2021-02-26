@@ -1,5 +1,11 @@
 # Survivor Ball
 # 
+
+## Desarrolladores
+Pedro David Torres
+Yorman Ronaldo Carrillo
+
+
 ## Banner
 ![PLANTILLA (1) (2)](https://user-images.githubusercontent.com/75033852/109241035-9bf91180-77a6-11eb-9474-998629c4085b.jpg)
 
@@ -35,11 +41,6 @@ Intrucciones sencillas para todos
 
 ## Creditos y Agradecimientos
 
-Desarrolladores
-
-Pedro David Torres
-
-Yorman Ronaldo Carrillo
 
 insipirado en el juego de flappy bird
 
