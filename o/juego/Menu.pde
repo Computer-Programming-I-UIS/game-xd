@@ -60,6 +60,7 @@ void mostrar() {
       textSize(25);
       textAlign(CENTER);
       text("Presione una tecla para volver", width/2, height/6*4);
+      text("su puntaje es: "+player.score, width/2, 510);
 
     
       if (keyPressed) pantalla = 1;

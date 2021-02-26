@@ -38,7 +38,7 @@ void setup() {
 void draw() {
   
   if(!cancion.isPlaying()) {
-     //cancion.play();
+     cancion.play();
   }
  cambiarpantalla();
  mostrar();
