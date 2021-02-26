@@ -1,5 +1,8 @@
 # Survivor Ball
 # 
+## Banner
+![PLANTILLA (1) (2)](https://user-images.githubusercontent.com/75033852/109241035-9bf91180-77a6-11eb-9474-998629c4085b.jpg)
+
 
 ## Juego
 Una vez dentro del juego nuestro personaje es una pelotica cuyo unico objetivo es pasar por el medio de obstaculos que estan en movimiento continuo para ir acumulando puntos, pero CUIDADO no es nada facil hacerlo.
