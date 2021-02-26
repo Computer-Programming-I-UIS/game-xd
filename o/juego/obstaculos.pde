@@ -1,6 +1,6 @@
 class Rect {
   PVector pos;  
-  PVector vel = new PVector(-2, 0);
+  PVector vel = new PVector(-5, 0);
   int rx = 30;
   int ry;
   int tipo;
@@ -31,7 +31,11 @@ class Rect {
       fill(muerte, 255, 0);
       rect(pos.x, pos.y, rx, ry);
     } else {
+<<<<<<< HEAD
       fill(#FFFFFF);
+=======
+      fill(muerte, 0, 255);
+>>>>>>> d76181300652c15e19af01f7bb271eae80f6e79e
       rect(pos.x, pos.y, rx, ry);
     }
   }

@@ -1,12 +1,18 @@
 Personaje player;
 PVector G = new PVector(0, 0.1);
 PVector UPP = new PVector(0, -0.5);
+<<<<<<< HEAD
 PImage Fondo;
+=======
+>>>>>>> d76181300652c15e19af01f7bb271eae80f6e79e
 columna[] columnas= new columna[6];
 int muerte = 0;
 int pantalla = 1;
 
+<<<<<<< HEAD
 boolean gameOver = false;
+=======
+>>>>>>> d76181300652c15e19af01f7bb271eae80f6e79e
 
 
 import ddf.minim.*;
@@ -14,7 +20,10 @@ Minim minim;
 AudioPlayer cancion;
 
 void setup() {
+<<<<<<< HEAD
   
+=======
+>>>>>>> d76181300652c15e19af01f7bb271eae80f6e79e
   size(900, 700);
   Fondo = loadImage("fondo.jpeg");
   
@@ -35,6 +44,10 @@ void draw() {
   if(!cancion.isPlaying()) {
      cancion.play();
   }
+<<<<<<< HEAD
  cambiarpantalla();
+=======
+  cambiarpantalla();
+>>>>>>> d76181300652c15e19af01f7bb271eae80f6e79e
  mostrar();
 }
