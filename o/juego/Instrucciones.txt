@@ -1,0 +1,3 @@
+Para jugar pulse repetidamente 
+el espacio para hacer que la pelota se eleve
+ y deje de oprimir para que esta se detenga

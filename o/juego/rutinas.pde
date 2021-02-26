@@ -10,17 +10,20 @@ void ActualizarColumnas() {
     columnas[i]. mover();
     columnas[i]. mostrar();
     if (columnas[i].SevadelaPantalla())
+      
       columnas[i].reaparecer();
+  
+    if(columnas[i].SumaPuntaje()){
+      player.score+=1;
+  }
   }
 }
-
+String texto = "0";
 void chequearColision() {
-  for (int i = 0; i<6; i++) {
-    if (!player.ChocaContra(columnas[i].obs) && (player.ChocaContra(columnas[i].esp))){
-      player.pos.y = columnas[i].esp.pos.y;
-      player.vel.mult(0);
-      background(255, 0, 0);
-      muerte = 255;
+  for (int i = 0; i< 6; i++) {
+    if (player.ChocaContra(columnas[i])) {
+      
+      player.vidas-=1;
+    }
   }
-}
 }

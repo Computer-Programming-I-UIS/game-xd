@@ -1,57 +1,40 @@
 Personaje player;
-PVector G = new PVector(0,0.3);
-PVector UPP = new PVector(0,-1);
-int w=0;
+PVector G = new PVector(0, 0.1);
+PVector UPP = new PVector(0, -0.5);
+PImage Fondo;
 columna[] columnas= new columna[6];
-
 int muerte = 0;
-void setup(){
+int pantalla = 1;
+
+boolean gameOver = false;
+
+
+import ddf.minim.*;
+Minim minim;
+AudioPlayer cancion;
+
+void setup() {
+  
   size(900, 700);
+  Fondo = loadImage("fondo.jpeg");
+  
   player = new Personaje();
-   
-   for(int i = 0; i<6; i++){
+  
+  for (int i = 0; i<6; i++) {
     columnas[i] = new columna(width + 240*i);
-   }
- }
- 
- void draw(){
-   if(w==1){
-   muerte = max(muerte-1, 0);
-   background(muerte, 0, 255);
-   aplicarFuerzas();
-   
-   ActualizarColumnas();
-   
-   player.acelerar(G);
-   player.mover();
-   player.mostrar();
-   
-   chequearColision();
-   }else if(w==0){
-    menu(); 
-   }
- }
- void menu(){
-  background(255,0,255); 
-  text("Presiona J para jugar", 200,100);
-  text("Presiona C para los creditos", 200,200);
-   
- }
- void keyPressed(){
-  if(w==0){
-   switch(keyCode){
-     case 'p':
-     case 'P':
-       w=1;
-       break;
-     case 'C':
-     case 'c':
-       w=2;
-       break;
-     
-     
-   }
-    
   }
-   
- }
+  
+  minim = new Minim(this);
+  cancion = minim.loadFile("nubes-de-cristal.mp3");
+  cancion.setGain(-30);
+  
+}
+
+void draw() {
+  
+  if(!cancion.isPlaying()) {
+     cancion.play();
+  }
+ cambiarpantalla();
+ mostrar();
+}

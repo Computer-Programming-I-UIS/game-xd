@@ -1,8 +1,10 @@
 class Personaje {
   PVector pos;
   PVector vel;
+  int vidas = 3;
+  int score=0;
   PVector ace = new PVector(0, 0);
-  ;
+
   int radio = 15;
 
   Personaje() {
@@ -38,26 +40,14 @@ class Personaje {
 
 
 
-  boolean ChocaContra(Rect pal) {
-    
-    PVector PMC = new PVector (0, 0);
+  boolean ChocaContra(columna obstaculo) {
 
-    if (pos.x < pal.pos.x-pal.rx) PMC.x = pal.pos.x-pal.rx;
-    else if (pos.x> pal.pos.x-pal.rx) PMC.x = pal.pos.x-pal.rx;
-    else PMC.x=pos.x;
+    boolean retorno = false;
 
-if (pos.y < pal.pos.y-pal.ry) PMC.y = pal.pos.y-pal.ry;
-  else if (pos.y> pal.pos.y-pal.ry) PMC.y = pal.pos.y-pal.ry;
-  else PMC.y=pos.y;
+    if ( (pos.x+radio) > obstaculo.esp.pos.x && (pos.x-radio) < obstaculo.esp.pos.x + obstaculo.esp.rx && ( (pos.y + radio) < obstaculo.esp.pos.y || (pos.y - radio) > obstaculo.esp.pos.y + obstaculo.esp.ry ) ) {
+      retorno = true;
+    }
 
-float dist = PVector.dist(pos, PMC);
-
-if (dist < radio){ 
-  return true;
-}
-else
-{
-  return false;
-}
-}
+    return retorno;
+  }
 }
