@@ -55,10 +55,13 @@ void mostrar() {
       chequearColision();
     } else {
       background(255, 0, 0);
+
       image(gameover,0,0,width,height);
       textSize(25);
       textAlign(CENTER);
       text("Presione una tecla para volver", width/2, height/6*4);
+
+    
       if (keyPressed) pantalla = 1;
       for (int i = 0; i < 6; i++) {
         columnas[i].obs.pos.x = width + 240*i;

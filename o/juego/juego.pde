@@ -1,7 +1,11 @@
 Personaje player;
 PVector G = new PVector(0, 0.1);
 PVector UPP = new PVector(0, -0.5);
+
 PImage Fondo,gameover;
+
+
+
 columna[] columnas= new columna[6];
 int muerte = 0;
 int pantalla = 1;
