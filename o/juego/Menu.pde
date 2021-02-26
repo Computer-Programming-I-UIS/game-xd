@@ -5,11 +5,8 @@ if(key == 'J' || key == 'j'){
 //gameplay=3
 //instruciiones=4
 pantalla = 3;
-<<<<<<< HEAD
 player.vidas=3;
 player.score=0;
-=======
->>>>>>> d76181300652c15e19af01f7bb271eae80f6e79e
 }
 if(key == 'C' || key == 'c'){  
   
@@ -46,7 +43,6 @@ switch(pantalla){
   
   break;
  
-<<<<<<< HEAD
   case 3: 
   if(player.vidas > 0){
   textSize(80);
@@ -66,21 +62,6 @@ switch(pantalla){
    textSize(100);
    text("Game Over",300,200);
   }
-=======
-  case 3:  
-  muerte = max(muerte-1, 0);
-  background(muerte, 0, 255);
-  aplicarFuerzas();
-
-  ActualizarColumnas();
-
-  player.acelerar(G);
-  player.mover();
-  player.mostrar();
-
-  chequearColision();
-  
->>>>>>> d76181300652c15e19af01f7bb271eae80f6e79e
   break;
    
    case 4:
