@@ -25,7 +25,7 @@ void setup() {
   }
   
   minim = new Minim(this);
-  cancion = minim.loadFile("nubes-de-cristal.mp3");
+  cancion = minim.loadFile("nubes_de_cristal.mp3");
   cancion.setGain(-30);
   
 }
@@ -33,7 +33,7 @@ void setup() {
 void draw() {
   
   if(!cancion.isPlaying()) {
-     cancion.play();
+     //cancion.play();
   }
  cambiarpantalla();
  mostrar();
