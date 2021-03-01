@@ -30,7 +30,7 @@ El juego posee una interfaz sencilla y entendible para cualquier jugador en la c
 
 ## Tutorial 
 Intrucciones sencillas para todos
-![Instru](https://user-images.githubusercontent.com/75033852/109210807-54a95b80-777b-11eb-818e-68f1570e06c9.png)
+![In](https://user-images.githubusercontent.com/75033852/109527188-617ec580-7a81-11eb-8b58-d1681c062d53.png)
 
 ## Juego en funcionamiento 
 
