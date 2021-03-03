@@ -3,7 +3,6 @@
 
 ## Desarrolladores
 Pedro David Torres
-
 Yorman Ronaldo Carrillo
 
 
@@ -37,6 +36,9 @@ Intrucciones sencillas para todos
 ![Sin título](https://user-images.githubusercontent.com/75033852/109268647-60c40600-77d9-11eb-9bc4-b2c2946350f2.png)
 
 
+## Gameplay
+
+https://www.youtube.com/watch?v=IAmIeJpcmVk
 
 
 
